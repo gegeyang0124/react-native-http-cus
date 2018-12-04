@@ -12,10 +12,6 @@ import {
 
 var RNFS = {};
 
-/*import FileTransfer from '@remobile/react-native-file-transfer';
- // var FileTransfer = require('@remobile/react-native-file-transfer');
- var RNUploader = NativeModules.RNUploader;*/
-
 import Indicator from 'react-native-toast-loadding';
 
 /**
