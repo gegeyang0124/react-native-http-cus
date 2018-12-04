@@ -1,0 +1,40 @@
+{
+  "name": "react-native-http-cus",
+  "version": "1.0.0",
+  "description": "http请求，上传文件，下载文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gegeyang0124/react-native-http-cus.git"
+  },
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react",
+    "http",
+    "react-native",
+    "react-native-http",
+    "react-native-http-cus",
+    "上传",
+    "下载",
+    "网络",
+    "请求"
+  ],
+  "author": {
+    "name": "周阳",
+    "email": "584450903@qq.com",
+    "url": "https://github.com/gegeyang0124",
+    "blog":"http://blog.sina.com.cn/s/articlelist_6078695441_0_1.html"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gegeyang0124/react-native-http-cus/issues"
+  },
+  "homepage": "https://github.com/gegeyang0124/react-native-http-cus#readme",
+  "dependencies": {
+    "react-native-toast-loadding": "^1.0.0"
+  }
+}
