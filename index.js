@@ -798,9 +798,17 @@ export default class Http {
 
                                                     /* console.log('file://' + downloadDest)*/
 
-                                                    retJson["filePath"] = downloadDest;
+                                                    RNFS.stopDownload(retJson.jobId);
                                                     Indicator.hide();
-                                                    resolve(retJson);
+
+                                                    if(retJson.statusCode == 200){
+                                                        retJson["filePath"] = downloadDest;
+                                                        resolve&&resolve(retJson);
+                                                    }
+                                                    else
+                                                    {
+                                                        this.toast("文件不存在");
+                                                    }
 
                                                 }).catch(err => {
                                                     Indicator.hide();
